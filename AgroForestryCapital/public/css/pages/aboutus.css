@@ -1,0 +1,21 @@
+
+
+.aboutpage-wrapper{
+padding: 40px;
+}
+.aboutpage-images{
+height:300px;
+width: 350px;
+overflow: hidden;
+float:right;
+padding: 0 0 25px 35px;
+}
+.aboutpage-images img{
+height:100%;
+width:100%;
+object-fit:cover;
+}
+.aboutpage-paragraph p{
+padding:0 0 20px 0;
+text-align: justify;
+}

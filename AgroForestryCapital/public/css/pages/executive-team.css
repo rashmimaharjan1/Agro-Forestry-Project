@@ -1,0 +1,80 @@
+
+
+.executive-con {
+    height: 400px;
+  /*  width: 300px;*/
+    perspective: 800;
+    -webkit-perspective: 800;
+        margin-top: 92px;
+            margin-bottom: 92px;
+}
+
+.executive-card{
+	background-color: #fff;
+	height: 100%;
+	width: 100%;
+	transform-style: preserve-3d;
+	-webkit-transform-style:preserve-3d;
+	position: relative;
+	transition: all 2s ease;
+	
+}
+
+.executive-card:hover{
+	transform: rotateY(180deg);
+	background-color:green;
+}
+.executive-front, .executive-back{
+backface-visibility: hidden;
+-webkit-backface-visibility: hidden;
+}
+.executive-back {
+	position: relative;
+	bottom: 358px;
+	transform: rotateY(180deg);
+	color:#fff;
+	text-align:justify;
+	background-color: green;
+	padding: 45px;
+
+}
+.executive-back p{
+	height: 234px;
+	overflow: hidden;
+}
+
+.executive-photo {
+     height: 255px;
+    width: 255px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    transform: scale(.8);
+    box-shadow: 0 0 2px, 0 5px 5px rgba(47,66,81,.75);
+    transition: transform .5s ease-in-out 0s;
+    margin: 0 auto;
+}
+
+.executive-photo img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+.executive-title{
+	text-align: center;
+	padding-top: 20px;
+	text-transform: uppercase;
+	
+}
+
+.executive-title h5{
+	margin-top:20px;
+}
+
+.executive-social-icons i{
+	padding-right:10px;
+	color: #fff;
+}

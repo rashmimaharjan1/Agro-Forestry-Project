@@ -1,0 +1,120 @@
+
+
+.ourservice-wrapper{
+
+font-weight:lighter;
+}
+.ourservice-title{
+padding: 20px;
+border-bottom: 1px solid green;
+box-shadow: 2px 5px 0px 0px #eee;
+box-shadow: 0 0 4px 0 #eee;
+}
+.mt50{
+margin-top: 50px;
+}
+.mb50{
+margin-bottom: 50px;
+}
+.mtb50{
+margin-top: 50px;
+margin-bottom: 50px;
+}
+.ourservice-section{
+position:absolute;
+height:100%;
+width:100%;
+top:0;
+left:0;
+background:#fff;
+overflow: hidden;
+}
+.ourservice-content-wrap{
+position:absolute;
+top:50%;
+left: 50%;
+transform:translate(-50%, -50%);
+}
+.ourservice-fly-in-text{
+list-style:none;
+text-align: center;
+}
+.ourservice-fly-in-text li{
+font-family:Quicksand;
+font-weight:700;
+display:inline-block;
+margin-right:0;
+font-size:5em ;
+color:#000;
+opacity:1;
+transition: all 1s ease;
+}
+.ourservice-fly-in-text li:nth-child(5){
+margin-right:0;
+}
+.ourservice-enter-button{
+display: block;
+text-align: center;
+font-size: 1em;
+text-decoration: none;
+color: #adff2f;
+opacity: 1;
+margin-top: 30px;
+transition: all .5s ease 1s;
+}
+.ourservice-content-hidden .ourservice-fly-in-text li{
+opacity: 0;
+}
+.ourservice-content-hidden .ourservice-fly-in-text li:nth-child(1){
+transform: translate3d(-60px, 0, 0);
+}
+.ourservice-content-hidden .ourservice-fly-in-text li:nth-child(2){
+transform: translate3d(-30px, 0, 0);
+}
+.ourservice-content-hidden .ourservice-fly-in-text li:nth-child(3){
+transform: translate3d(0px, 0, 0);
+}
+.ourservice-content-hidden .ourservice-fly-in-text li:nth-child(4){
+transform: translate3d(30px, 0, 0);
+}
+.ourservice-content-hidden .ourservice-fly-in-text li:nth-child(5){
+transform: translate3d(90px, 0, 0);
+}
+.ourservice-content-hidden .ourservice-fly-in-text li:nth-child(6){
+transform: translate3d(-60px, 0, 0);
+}
+.ourservice-content-hidden .ourservice-fly-in-text li:nth-child(7){
+transform: translate3d(-30px, 0, 0);
+}
+.ourservice-content-hidden .ourservice-fly-in-text li:nth-child(8){
+transform: translate3d(0px, 0, 0);
+}
+.ourservice-content-hidden .ourservice-fly-in-text li:nth-child(9){
+transform: translate3d(30px, 0, 0);
+}
+.ourservice-content-hidden .ourservice-fly-in-text li:nth-child(10){
+transform: translate3d(90px, 0, 0);
+}
+.ourservice-content-hidden .ourservice-enter-button {
+opacity: 0; transform: translate3d(0,-30px,0);
+}
+/**/
+.ourservice-second-section{
+text-align: center;
+}
+.ourservice-images{
+height:250px;
+overflow: hidden;
+float:right;
+padding: 0 0 25px 35px;
+}
+.ourservice-images img{
+height:100%;
+width:100%;
+object-fit:cover;
+}
+.ourservice-paragraph p{
+padding:0 0 20px 0;
+font-family:Berlin sans;
+text-align: justify;
+}
